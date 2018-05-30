@@ -7,7 +7,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     Container encloseInContainer(Widget child) {
       return new Container(
-        constraints: new BoxConstraints.expand(width: BoxFit.fitWidth),
           padding: EdgeInsets.all(32.0),
           alignment: Alignment.center,
           decoration: new BoxDecoration(
